@@ -1,0 +1,56 @@
+<ion-content [fullscreen]="true" class="ion-padding custom-content">
+  <ion-grid class="full-height">
+    <ion-row
+      class="ion-justify-content-center ion-align-items-center full-height"
+    >
+      <ion-col size="12" class="ion-text-center">
+        <h1 class="titulo">Cadastro</h1>
+
+        <ion-img
+          src="assets/Logo-Secundaria.png"
+          alt="logotipo"
+          class="logotipo-secondary"
+        ></ion-img>
+
+        <ion-input
+          fill="outline"
+          shape="round"
+          label="Nome de Usuário:"
+          label-placement="floating"
+          class="button-cadastro"
+        ></ion-input>
+
+        <ion-input
+          fill="outline"
+          shape="round"
+          label="E-mail:"
+          label-placement="floating"
+          class="button-cadastro"
+        ></ion-input>
+
+        <ion-input
+          fill="outline"
+          shape="round"
+          label="Senha:"
+          label-placement="floating"
+          class="button-cadastro"
+        ></ion-input>
+
+        <ion-button expand="block" shape="round" class="button-cadastro">
+          Cadastrar
+        </ion-button>
+
+        <ion-button
+          expand="block"
+          shape="round"
+          fill="outline"
+          color="tertiary"
+          class="custom-button"
+          routerLink="/home"
+        >
+          Voltar para Home
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
