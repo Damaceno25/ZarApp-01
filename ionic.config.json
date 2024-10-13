@@ -1,0 +1,7 @@
+{
+  "name": "ZarApp-01",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
