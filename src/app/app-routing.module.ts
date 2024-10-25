@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
+import { LoadingController } from '@ionic/angular';
 
 const routes: Routes = [
   {
@@ -22,6 +23,10 @@ const routes: Routes = [
   {
     path: 'sobre',
     loadChildren: () => import('./sobre/sobre.module').then(m => m.SobrePageModule)
+  },
+  {
+    path: 'cont',
+    loadChildren: () => import('./cont/cont.module').then( m => m.ContPageModule)
   }
 ];
 

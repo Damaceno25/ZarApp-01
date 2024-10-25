@@ -1,0 +1,59 @@
+ion-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 20px;
+  }
+  
+  .usu_perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .usu_perfil ion-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Imagem redonda */
+    background-color: #00b3ff; 
+    margin-top: 100px;
+  }
+  
+  .usu_perfil h2 {
+    margin-top: 25px;
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: bold;
+
+  }
+  
+  /* Container para centralizar os botões na vertical */
+  .button-container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 35px;
+    gap: 15px;
+}
+  
+  /* Botão "Editar Perfil" - Cinza claro */
+  .button-perfil {
+    --background: #d3d3d3; /* Cinza claro */
+    --color: #000; /* Texto preto */
+    border-radius: 8px;
+  }
+  
+  /* Botão "Minhas Viagens" - Azul quase roxo */
+  .button-viagem {
+    --background: #5b6ee1;
+    /*Azulquaseroxo*/--color: #fff;
+    /*Textobranco*/border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+  
